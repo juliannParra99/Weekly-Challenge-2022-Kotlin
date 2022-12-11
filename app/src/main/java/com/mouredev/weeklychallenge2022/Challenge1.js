@@ -1,4 +1,4 @@
-// package com.mouredev.weeklychallenge2022
+
 
 /*
  * Reto #1
@@ -20,6 +20,7 @@
  *
  */
 
+
 // fun main() {
 //     println(isAnagram("amor", "roma"))
 // }
@@ -30,3 +31,4 @@
 //     }
 //     return wordOne.lowercase().toCharArray().sortedArray().contentEquals(wordTwo.lowercase().toCharArray().sortedArray())
 // }
+

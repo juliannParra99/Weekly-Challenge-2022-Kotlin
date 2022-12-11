@@ -1,4 +1,4 @@
-package com.mouredev.weeklychallenge2022
+// package com.mouredev.weeklychallenge2022
 
 /*
  * Reto #0
@@ -17,21 +17,21 @@ package com.mouredev.weeklychallenge2022
  * - Revisaré el ejercicio en directo desde Twitch el lunes siguiente al de su publicación.
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
- */
 
-fun main() {
+*/
 
-    for (index in 1..100) {
-        val divisibleByThree = index % 3 == 0
-        val divisibleByFive = index % 5 == 0
-        if (divisibleByThree && divisibleByFive) {
-            println("fizzbuzz")
-        } else if (divisibleByThree) {
-            println("fizz")
-        } else if (divisibleByFive) {
-            println("buzz")
-        } else {
-            println(index)
-        }
+const fizzBuzz = () => {
+  for (let i = 1; i <= 100; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
+      console.log("fizzbuzz");
+    } else if (i % 3 == 0) {
+      console.log("fizz");
+    } else if (i % 5 == 0) {
+      console.log("buzz");
+    } else {
+      console.log(i);
     }
-}
+  }
+};
+
+console.log(fizzBuzz());
