@@ -1,6 +1,6 @@
-package com.mouredev.weeklychallenge2022
+// package com.mouredev.weeklychallenge2022
 
-import java.math.BigInteger
+// import java.math.BigInteger
 
 /*
  * Reto #2
@@ -21,17 +21,57 @@ import java.math.BigInteger
  *
  */
 
-fun main() {
 
-    var n0: Long = 0
-    var n1: Long = 1
+//necesito dos numeros para hacer el fibonacci, y una variable ams que vaya sumando ya ctualziando esos dos nuemeros
 
-    (1..50).forEach { _ ->
+// while (fibo < 50) {
+    //     console.log(num0);
+    //     fibo = num0 + num1;
+    //     num0 = num1;
+    //     num1 = fibo;//el numero 2 siempre va ser el numero mas alto conseguido
+    //     console.log("el numero de fibo es",fibo)
+    
+    // }
+let num0= 0 ;
+let num1 = 1;
 
-        println(n0)
-
-        val fib = n0 + n1
-        n0 = n1
-        n1 = fib
-    }
+for (let i = 0; i < 50; i++) {
+    console.log(num0)
+    let fibo = num0 +num1; //el proximo numero a msotrarse es la suma de los dos anteriores
+    num0 = num1;
+    num1 = fibo;     
+        
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fun main() {
+
+//     var n0: Long = 0
+//     var n1: Long = 1
+
+//     (1..50).forEach { _ ->
+
+//         println(n0)
+
+//         val fib = n0 + n1
+//         n0 = n1
+//         n1 = fib
+//     }
+// }
